@@ -20,7 +20,8 @@ var FileStore = require("session-file-store")(session);
 var app = express();
 
 const mongoose = require("mongoose");
-const url = "mongodb://localhost:27017/rentkar";
+const url =
+  "mongodb+srv://rentkar:rentkar890@cluster0.buwsg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const connect = mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -32,6 +33,7 @@ connect.then(
     console.log("Connected to server");
   },
   (err) => {
+    console.log(err);
     console.log("Connection failed.....");
   }
 );
