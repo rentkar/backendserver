@@ -1,0 +1,995 @@
+{
+    "products" : [
+        {
+        "id": "GP9", 
+        "name": "Go Pro 9",
+        "image": "link of image",
+        "category": "PHOTOGRAPHY",
+        "subcategory":"CAMERA",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "200"
+            },
+            {
+                "duration": "1 Week",
+                "price": "1000"
+            },
+            {
+                "duration": "2 Weeks",
+                "price": "1000"
+            },
+            {
+                "duration": "1 Month",
+                "price": "3000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "A waterproof camera",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Go Pro"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "MegaPixel Count",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "Connectivity Type",
+                "spec" : "Go Pro App, Bluetooth, WIFI"
+            },
+            {
+                "stype" : "Image Stabalization",
+                "spec" : "HyberSmooth 3.0"
+            },
+            {
+                "stype" : "Video Resolution",
+                "spec" : "5K"
+            },
+            {
+                "stype" : "Slo-Mo",
+                "spec" : "8X"
+            },
+            {
+                "stype" : "Live Streaming",
+                "spec" : "1080p"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "box":[
+            {
+                "content" : "Camera",
+                "image" : "image src"
+            },
+            {
+                "content" : "USB",
+                "image" : "image src"
+            }
+        ],
+        "adOns": [
+            {
+                "_id" : "6030a934ce66a71fec678591"
+            }
+        ]
+    },
+    {
+        "id": "EDB", 
+        "name": "EXTRA DUAL BATTERY",
+        "image": "link of image",
+        "category": "PHOTOGRAPHY",
+        "subcategory":"CAMERA",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "50"
+            },
+            {
+                "duration": "1 Week",
+                "price": "400"
+            },
+            {
+                "duration": "2 Weeks",
+                "price": "600"
+            },
+            {
+                "duration": "1 Month",
+                "price": "1000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "batteries of go pro 9",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "battery"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2020"
+            }
+        ],
+        "limitedStock": false ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "battery",
+                "image" : "image src"
+            }
+        ]
+        
+    },
+    {
+        "name": "PlayStation 5",
+        "images":[
+            {
+                "image" : "images/PS5/0.webp"
+            },
+            {
+                "image" : "images/PS5/0.webp"
+            },
+            {
+                "image" : "images/PS5/0.webp"
+            },
+            {
+                "image" : "images/PS5/0.webp"
+            }
+        ],
+        "category": "Tech",
+        "label": "Hot",
+        "quantity": "100",
+        "owners": [
+            {
+                "id" : "Id1",
+                "name": "Rentkar"
+            },
+            {
+                "id" : "Id1333333333333",
+                "name": "Tanuj"
+            }
+        ],
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "600"
+            },
+            {
+                "duration": "1 Week",
+                "price": "900"
+            },
+            {
+                "duration": "2 Weeks",
+                "price": "1600"
+            },
+            {
+                "duration": "1 Month",
+                "price": "2960"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "Experience gaming like never before with the world’s most awaited console, Playstation 5 (PS5). With 4K graphics, faster frame rates and new dual sense controllers, PS5 pushes the boundary of gaming. Whether its a night out with friends or leisure gaming during the week, PS5 is the perfect entertainment option with its chartbuster games such as FIFA, Spiderman, Fortnite and lots more.",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Playstation"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2021"
+            }
+        ],
+        "limitedStock": false ,
+        "box":[
+            {
+                "content" : "PS5",
+                "image" : "image src"
+            },
+            {
+                "content" : "Controllers",
+                "image" : "image src"
+            }
+        ], 
+        "optional": [
+            {
+                "id" : "id of optional product",
+                "name" : "GTA",
+                "image" : "image src"
+            },
+            {
+                "id" : "id of optional product",
+                "name" : "GRAN TURISMO",
+                "image" : "image src"
+            }
+        ]
+    }
+    ],
+    "subproduct" : [
+    
+      
+            {
+                "id":"GP91",
+                "lenderId": "6030a72167bdf830e0e2db9a",
+                "productId" : "6030a934ce66a71fec678591",
+                "availability" : true
+            },
+            {
+                "_id":"GP92",
+                "lenderId": "6030a72167bdf830e0e2db9a",
+                "productId" : "6030a934ce66a71fec678591",
+                "availability": false,
+                "dateOfPurchase": "2020-03-20"
+            }
+        
+],
+    "users":[
+        {
+            "phoneNumber" : "9004377042",
+            "username" : "KULDEEP YADAV",
+            "addresses" :[ 
+                {
+                "type" : "WORK",
+                "address": {
+                "houseNumber" : "D501",
+                "street" : "PANOM PARK",
+                "locality" : "ANDHERI (E)",
+                "city": "MUMBAI",
+                "state": "MAHARASHTRA",
+                "zip" : "400075"
+                }
+            },
+            {
+                "type" : "HOME",
+                "address": {
+                "houseNumber" : "R/49",
+                "street" : "JAI BHAWANI SOCIETY",
+                "locality" : "POWAI",
+                "city": "MUMBAI",
+                "state": "MAHARASHTRA",
+                "zip" : "400076"
+                }
+            }
+        ],
+        "dob": "2000-02-28",
+        "email": "ikuldeepyadavky@gmail.com",
+        "gender" : "MALE",
+        "image" : "location of image",
+        "document" : {
+            "doctype": "AADHAR",
+            "doccopy" : "location of user doc"
+        }
+        }        
+    ],
+    "support" : [
+        {
+        "userId" : "9004377042",
+        "supporttype" : "FEEDBACK",
+        "statement" : "I love your site as i can rent products comparatively at a lower price than other websites"
+        },
+        {
+        "userId" : "9334377042",
+        "supporttype" : "FEEDBACK",
+        "statement" : "I love your site as i can rent products comparatively at a lower price than other websites",
+        "resolved" : true,
+        "solution": "Was just a feedback"
+        },
+        {
+        "userId" : "9093939392",
+        "supporttype" : "TECHNICAL HELP",
+        "orderId" : "#4557",
+        "statement" : "Go Pro 9 suddenly stopped"
+        },
+        {
+        "userId" : "9004377042",
+        "supporttype" : "PAYMENT RELATED",
+        "statement" : "Razorpay is down",
+        "orderId" : "#4554",
+        "resolved" : true,
+        "solution" : "Recieved the payment using Google Pay on Mudit's phone #9004900000"
+        },
+        {
+        "userId" : "90411939392",
+        "supporttype" : "TECHNICAL HELP",
+        "orderId" : "#4500",
+        "statement" : "PC crashed while running adobe premier pro"
+        }
+    ],
+    "data" : [
+        {
+            "statement" : "Do you have Nintendo?"
+        }
+    ],
+    "lendereq": [
+        {
+            "userId" : "6030a72167bdf830e0e2db9a",
+            "products": [
+                {
+                    "_id" : "6030a934ce66a71fec678591"
+                }
+            ]
+        }
+    ],
+    "orderreq": [
+        {
+            "userId": "6030a72167bdf830e0e2db9a",
+            "productId": "6030a934ce66a71fec678591",
+            "exp_del": "2020-02-20",
+            "exp_pickup" : "2020-02-28",
+            "total_amount": "18000",
+            "payment_received": "3000",
+            "payment_pending" : "16000",
+            "del_address" :{
+                "houseNumber" : "R/49",
+                "street" : "JAI BHAWANI SOCIETY",
+                "locality" : "POWAI",
+                "city": "MUMBAI",
+                "state": "MAHARASHTRA",
+                "zip" : "400076"
+                }
+        },
+        {
+            "userId": "6030a72167bdf830e0e2db9a",
+            "productId": "6030a934ce66a71fec678591",
+            "exp_del": "2020-02-20",
+            "exp_pickup" : "2020-05-20",
+            "total_amount": "12000",
+            "payment_received": "4000",
+            "payment_pending" : "8000",
+            "del_address" :{
+                "houseNumber" : "R/49",
+                "street" : "JAI BHAWANI SOCIETY",
+                "locality" : "POWAI",
+                "city": "MUMBAI",
+                "state": "MAHARASHTRA",
+                "zip" : "400076"
+                }
+        },
+        {
+            "_id" : "4501",
+            "userId": "8858754875",
+            "productId": "GAMPC",
+            "exp_del": "2020-02-20",
+            "exp_pickup": "2020-03-20",
+            "amount" : "16000",
+            "total_amount": "18000",
+            "payment_received": "3000",
+            "payment_pending" : "16000",
+            "appliedForPOD" : false,
+            "del_address" : {
+                "houseNumber" : "D501",
+                "street" : "PANOM PARK",
+                "locality" : "VILE PARLE",
+                "city": "MUMBAI",
+                "state": "MAHARASHTRA",
+                "zip" : "400000"
+            }
+        }
+    ],
+    "orders" : [
+        {
+            "id" : "4500",
+            "reqId" : "6030c5adf1462220ecbb6fe2",
+            "userId" : "6030a72167bdf830e0e2db9a",
+            "AllocatedProductId" : "6030adfd4d4f370bf08039f9",
+            "status": "CONFIRMED",
+            "total_amount": "12000",
+            "payment_received" : "8000",
+            "payment_pending" : "4000",
+            "appliedForPOD" : false,
+            "delivery_date" : "2020-02-20",
+            "pickup_date": "2020-05-20",
+            "subOrders" : [
+                {
+                    "id" : "4500A",
+                    "amount" : "4000",
+                    "paymentDue": "2020-02-20",
+                    "paymentStatus" : "RECEIVED"
+                },
+                {
+                    "_id" : "4500B",
+                    "amount" : "4000",
+                    "paymentDue": "2020-03-20",
+                    "paymentStatus" : "RECEIVED"
+                },
+                {
+                    "_id" : "4500C",
+                    "amount" : "5000",
+                    "paymentDue": "2020-04-20",
+                    "paymentStatus" : "PENDING"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+{
+    "products" : [
+        {
+        "id": "GP9", 
+        "name": "Go Pro 9",
+        "images": [
+            {"image" : "/images/Products/GoPro9.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro9/GoPro9_1.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro9/GoPro9_2.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro9/GoPro9_3.jpg"}
+        ],
+        "category": "PHOTOGRAPHY",
+        "subcategory":"CAMERA",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "900"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "2400"
+            },
+            {
+                "duration": "1 Week",
+                "price": "3500"
+            },
+            {
+                "duration": "1 Month",
+                "price": "7200"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "A waterproof camera",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Go Pro"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "MegaPixel Count",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "Connectivity Type",
+                "spec" : "Go Pro App, Bluetooth, WIFI"
+            },
+            {
+                "stype" : "Image Stabalization",
+                "spec" : "HyberSmooth 3.0"
+            },
+            {
+                "stype" : "Video Resolution",
+                "spec" : "5K"
+            },
+            {
+                "stype" : "Slo-Mo",
+                "spec" : "8X"
+            },
+            {
+                "stype" : "Live Streaming",
+                "spec" : "1080p"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "Camera",
+                "image" : "image src"
+            },
+            {
+                "content" : "USB",
+                "image" : "image src"
+            }
+        ],
+        "adOns": [
+            {
+                "_id" : "6030a934ce66a71fec678591"
+            }
+        ]
+    },
+    
+     {
+        "id": "GP8",
+        "name": "Go Pro 8",
+        "images": [
+            {"image" : "/images/Products/GoPro8.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro8/GoPro8_1.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro8/GoPro8_2.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro8/GoPro8_3.jpg"}
+        ],
+        "category": "PHOTOGRAPHY",
+        "subcategory":"CAMERA",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "850"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1800"
+            },
+            {
+                "duration": "1 Week",
+                "price": "2800"
+            },
+            {
+                "duration": "1 Month",
+                "price": "6000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "A waterproof camera",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Go Pro"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "MegaPixel Count",
+                "spec" : "12MP"
+            },
+            {
+                "stype" : "Connectivity Type",
+                "spec" : "Go Pro App, Bluetooth, WIFI"
+            },
+            {
+                "stype" : "Image Stabalization",
+                "spec" : "HyberSmooth 2.0"
+            },
+            {
+                "stype" : "Video Resolution",
+                "spec" : "4K"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "Camera",
+                "image" : "image src"
+            },
+            {
+                "content" : "Charger",
+                "image" : "image src"
+            },
+            {
+                "content" : "Battery",
+                "image" : "image src"
+            },
+            {
+                "content" : "Accessories",
+                "image" : "image src"
+            },
+            {
+                "content" : "64GB",
+                "image" : "image src"
+            }
+        ],
+        "adOns": [
+            {
+                "_id" : "6030a934ce66a71fec678591"
+            }
+        ]
+    },
+     {
+        "id": "GP7",
+        "name": "Go Pro 7",
+        "images": [
+            {"image" : "/images/Products/GoPro7.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro7/GoPro7_1.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro7/GoPro7_2.jpg"},
+            {"image" : "/images/ProductDetailPage/GoPro7/GoPro7_3.jpg"}
+        ],
+        "category": "PHOTOGRAPHY",
+        "subcategory":"CAMERA",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "650"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1500"
+            },
+            {
+                "duration": "1 Week",
+                "price": "2000"
+            },
+            {
+                "duration": "1 Month",
+                "price": "4500"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "A waterproof camera",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Go Pro"
+            },
+            {
+                "stype" : "Model Year",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "MegaPixel Count",
+                "spec" : "2020"
+            },
+            {
+                "stype" : "Connectivity Type",
+                "spec" : "Go Pro App, Bluetooth, WIFI"
+            },
+            {
+                "stype" : "Image Stabalization",
+                "spec" : "HyberSmooth 2.0"
+            },
+            {
+                "stype" : "Video Resolution",
+                "spec" : "4K"
+            },
+            {
+                "stype" : "Slo-Mo",
+                "spec" : "8X"
+            },
+            {
+                "stype" : "Live Streaming",
+                "spec" : "1080p"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "Camera",
+                "image" : "image src"
+            },
+            {
+                "content" : "USB",
+                "image" : "image src"
+            }
+        ],
+        "adOns": [
+            {
+                "_id" : "6030a934ce66a71fec678591"
+            }
+        ]
+    },
+    {
+        "id": "PS4+1DS4+2GAMES", 
+        "name": "PS4 + 1DS4 + 2 GAMES",
+        "images": [
+            {"image" : "/images/Products/PS4+1DS4+2GAMES.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+1DS4+2GAMES/PS4+1DS4+2GAMES_1.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+1DS4+2GAMES/PS4+1DS4+2GAMES_2.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+1DS4+2GAMES/PS4+1DS4+2GAMES_3.jpg"}
+        ],
+        "category": "CONSOLE",
+        "subcategory":"GAMING",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "500"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1000"
+            },
+            {
+                "duration": "1 Week",
+                "price": "1800"
+            },
+            {
+                "duration": "1 Month",
+                "price": "3500"
+            },
+            {
+                "duration": "3 Month",
+                "price": "3000"
+            },
+            {
+                "duration": "6 Months",
+                "price": "2500"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "Gaming Console",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Play Station"
+            },
+            {
+                "stype" : "Storage",
+                "spec" : "500GB"
+            },
+            {
+                "stype" : "Resolution",
+                "spec" : "FHD"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "PS4",
+                "image" : "image src"
+            },
+            {
+                "content" : "CONTROLLER",
+                "image" : "image src"
+            },
+            {
+                "content" : "CABLES",
+                "image" : "image src"
+            },
+            {
+                "content" : "GAMES",
+                "image" : "image src"
+            }
+        ]
+    },
+    {
+        "id": "PS4+2DS4+2GAMES", 
+        "name": "PS4 + 2DS4 + 2 GAMES",
+        "images": [
+            {"image" : "/images/Products/PS4+2DS4+2GAMES.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+2DS4+2GAMES/PS4+2DS4+2GAMES_1.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+2DS4+2GAMES/PS4+2DS4+2GAMES_2.jpg"},
+            {"image" : "/images/ProductDetailPage/PS4+2DS4+2GAMES/PS4+2DS4+2GAMES_3.jpg"}
+        ],
+        "category": "CONSOLE",
+        "subcategory":"GAMING",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "600"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1300"
+            },
+            {
+                "duration": "1 Week",
+                "price": "2000"
+            },
+            {
+                "duration": "1 Month",
+                "price": "4000"
+            },
+            {
+                "duration": "3 Month",
+                "price": "3500"
+            },
+            {
+                "duration": "6 Months",
+                "price": "3000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "Gaming Console",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Play Station"
+            },
+            {
+                "stype" : "Storage",
+                "spec" : "500GB"
+            },
+            {
+                "stype" : "Resolution",
+                "spec" : "FHD"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "PS4",
+                "image" : "image src"
+            },
+            {
+                "content" : "CONTROLLER",
+                "image" : "image src"
+            },
+            {
+                "content" : "CABLES",
+                "image" : "image src"
+            },
+            {
+                "content" : "GAMES",
+                "image" : "image src"
+            }
+        ]
+    },
+    {
+        "id": "PS5+1DS4+2GAMES", 
+        "name": "PS5+1DS4+2GAMES",
+        "images": [
+            {"image" : "/images/Products/PS5+1DS4+2GAMES.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+1DS4+2GAMES_1.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+1DS4+2GAMES_2.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+1DS4+2GAMES_3.jpg"}
+        ],
+        "category": "CONSOLE",
+        "subcategory":"GAMING",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "1000"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1800"
+            },
+            {
+                "duration": "1 Week",
+                "price": "2800"
+            },
+            {
+                "duration": "1 Month",
+                "price": "6500"
+            },
+            {
+                "duration": "3 Month",
+                "price": "5500"
+            },
+            {
+                "duration": "6 Months",
+                "price": "5000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "Gaming Console",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Play Station"
+            },
+            {
+                "stype" : "Storage",
+                "spec" : "1 TB"
+            },
+            {
+                "stype" : "Resolution",
+                "spec" : "4K"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "PS5",
+                "image" : "image src"
+            },
+            {
+                "content" : "CONTROLLER",
+                "image" : "image src"
+            },
+            {
+                "content" : "CABLES",
+                "image" : "image src"
+            },
+            {
+                "content" : "GAMES",
+                "image" : "image src"
+            }
+        ]
+    },
+    {
+        "id": "PS5+2DS4+2GAMES", 
+        "name": "PS5+2DS4+2GAMES",
+        "images": [
+            {"image" : "/images/Products/PS5+2DS4+2GAMES.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+2DS4+2GAMES_1.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+2DS4+2GAMES_2.jpg"},
+            {"image" : "/images/ProductDetailPage/PS5+1DS4+2GAMES/PS5+2DS4+2GAMES_3.jpg"}
+        ],
+        "category": "CONSOLE",
+        "subcategory":"GAMING",
+        "quantity": "200",
+        "pricing": [
+            {
+                "duration": "1 Day",
+                "price": "1000"
+            },
+            {
+                "duration": "3 DAYS",
+                "price": "1800"
+            },
+            {
+                "duration": "1 Week",
+                "price": "2800"
+            },
+            {
+                "duration": "1 Month",
+                "price": "6500"
+            },
+            {
+                "duration": "3 Month",
+                "price": "5500"
+            },
+            {
+                "duration": "6 Months",
+                "price": "5000"
+            }
+            
+        ],
+        "featured": "true",
+        "description": "Gaming Console",
+        "specifications":[
+            {
+                "stype" : "Brand",
+                "spec" : "Play Station"
+            },
+            {
+                "stype" : "Storage",
+                "spec" : "1 TB"
+            },
+            {
+                "stype" : "Resolution",
+                "spec" : "4K"
+            }
+        ],
+        "limitedStock": true ,
+        "availableInMumbai": true,
+        "availableInPune": true,
+        "box":[
+            {
+                "content" : "PS5",
+                "image" : "image src"
+            },
+            {
+                "content" : "CONTROLLER",
+                "image" : "image src"
+            },
+            {
+                "content" : "CABLES",
+                "image" : "image src"
+            },
+            {
+                "content" : "GAMES",
+                "image" : "image src"
+            }
+        ]
+    }
+]
+    
+}
