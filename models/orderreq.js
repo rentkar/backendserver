@@ -42,11 +42,9 @@ var orderreqSchema = new Schema( {
 	},
 	payment_received: {
 		type: Currency,
-		required : true 
 	},
 	payment_pending: {
 		type: Currency,
-		required : true 
 	},
 	status: {
 		type: String,
@@ -80,11 +78,9 @@ var orderreqSchema = new Schema( {
     },
 	exp_del: {
 		type: Date,
-		required: true
 	},
 	exp_pickup: {
 		type: Date,
-		required : true
 	},
 	subOrders : [subOrdersSchema]
 
