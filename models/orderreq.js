@@ -4,6 +4,22 @@ var Schema = mongoose.Schema
 require('mongoose-currency').loadType(mongoose);
 const Currency = mongoose.Types.Currency;
 
+var subOrdersSchema = new Schema( {
+	id: {
+		type: String,
+	},
+	amount: {
+		type: Currency,
+	},
+	paymentDue: {
+		type: Date,
+	},
+	paymentStatus: {
+		type: String,
+		enum: [ "PENDING", "RECEIVED" ],
+		default: "PENDING"
+	}
+} )
 
 var orderreqSchema = new Schema( {
 	userId: {
@@ -19,6 +35,10 @@ var orderreqSchema = new Schema( {
 	total_amount: {
 		type: Currency,
 		required: true,
+	},
+	allocatedProductId: {
+		type: Schema.Types.ObjectId,
+		ref: 'SubProducts',
 	},
 	payment_received: {
 		type: Currency,
@@ -66,6 +86,8 @@ var orderreqSchema = new Schema( {
 		type: Date,
 		required : true
 	},
+	subOrders : [subOrdersSchema]
+
 }, {
 	timestamps: true
 } )
