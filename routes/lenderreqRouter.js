@@ -8,7 +8,7 @@ lenderreqRouter.use(bodyParser.json())
 lenderreqRouter.route('/')
 .get((req, res, next)=> {
     lenderreq.find( {} )
-     .populate('userId productId')
+     .populate('userId')
     .then((lenderreq) => {
         res.statusCode = '200'
         res.setHeader('Content-Type', 'application/json')

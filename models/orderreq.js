@@ -30,11 +30,10 @@ var orderreqSchema = new Schema( {
 	productId: {
 		type: Schema.Types.ObjectId,
 		ref: 'Products',
-		required : true
+		git  : true
 	},
 	total_amount: {
 		type: Currency,
-		required: true,
 	},
 	allocatedProductId: {
 		type: Schema.Types.ObjectId,
