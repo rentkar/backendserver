@@ -72,6 +72,10 @@ const productSchema = new Schema(
       type: Currency,
     },
     images: [imageSchema],
+    image: {
+      type: String,
+    },
+    carousel: [imageSchema],
     category: {
       type: String,
 
